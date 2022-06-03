@@ -1,0 +1,23 @@
+1  cd Documents/VisualCodeStudio/
+2  ls
+3  ls -l
+4  mkdir spotify_project
+5  cd spotify_project
+6  python3 -m venv .spotify_project
+7  source .spotify_project/bin/activate
+8  mkdir data
+9  mkdir data/raw
+10  mkdir data/preproc
+11  mkdir code
+12  mkdir docs
+13  pip install pandas
+14  pip install json
+15  pip install requests
+16  pip install base64
+17  pip install BeautifulSoup
+18  pip install BeautifulSoup4
+19  pip install matplotlib
+20  pip install seaborn
+21  pip install sklearn
+22  pip freeze > requirements.txt
+23  history > history.txt
